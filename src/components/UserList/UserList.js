@@ -27,8 +27,8 @@ const UserList = ({}) => {
   const [favorite, setFavorite] = useState([]);
   const [arrayTemp, setArrayTemp] = useState();
   const [nation, setNation] = useState([
-    { value: "AU", label: "Brazil" },
-    { value: "BR", label: "Australia" },
+    { value: "BR", label: "Brazil" },
+    { value: "AU", label: "Australia" },
     { value: "CA", label: "Canada" },
     { value: "CH", label: "Switzerland" },
     { value: "DE", label: "Germany" },
@@ -36,14 +36,7 @@ const UserList = ({}) => {
     { value: "ES", label: "Spain" },
     { value: "FI", label: "Finland" },
     { value: "FR", label: "France" },
-    { value: "GB", label: "United Kingdom" },
-    { value: "IE", label: "Ireland" },
-    { value: "IR", label: "Iran" },
-    { value: "NO", label: "Norway" },
-    { value: "NL", label: "Netherlands" },
-    { value: "NZ", label: "New Zealand" },
-    { value: "TR", label: "Turkey" },
-    { value: "US", label: "United States" },
+    
   ]);
 
   const handleMouseEnter = (index) => {
